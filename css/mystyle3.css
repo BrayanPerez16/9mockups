@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+.encabezado1{
+    float: left;
+    width: 60%;
+    height: 300px;
+    margin: 5% 0% 0% 5%
+}
+.image1{
+    float: left;
+    width: 10%;
+    margin-right: 200px;
+
+}
+#imagen1{
+    float: left;
+    width: 80%;
+    margin-left: 5%;
+}
+#caja{
+    width: 60%;
+    float: left;
+}
+#caja1a{
+    width: 40%;
+    float: left;
+}
+#container{
+    width: 90%;
+    float: left;
+    margin-left: 80px
+}
+.recuadro{
+    float: left;
+    width: 30%;
+    height: 150px;
+    background-color: grey;
+    margin:5px;
+}
+h1{
+    color: white;
+}
+p{
+    color: grey
+}
+ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: orange;
+}
+
+.active {
+  background-color: #4CAF50;
+}
